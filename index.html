@@ -3,81 +3,122 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add a relevant page title</title>
+    <title>Sebrina's Resume</title>
+    <link rel="stylesheet" type="text/css" href="css/myStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        <h1>Your Name</h1>
-        <h2>Job title or tagline</h2>
-
-        <p>Add your profile copy here. Add more paragraphs or links as needed. Here is some dummy text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum, diam ut gravida efficitur, risus neque scelerisque erat, ut rhoncus erat odio ac justo. Nunc scelerisque vestibulum augue, sit amet hendrerit ante.</p>
-        <p>Add another paragraph if needed.</p>
+        <div class="content-wrap">
+          <h1>Sebrina Higdon</h1>
+          <h2 class="job">Graphic Designer</h2>
+          <p> I specialize in designing books, brochures, business cards, logos and packaging. Paper packaging is more environmentally friendly, and I would love to create a custom package for your product.</p>
+        </div>
       </header>
 
-      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section>
-        <h2>Featured Projects</h2>
-        <p>View selected projects below. More information can be found at <a href="http://christinatruong.com">christinatruong.com</a>.</p>
+      <!-- ********************  NAV  ********************* -->
+      <section class="nav">
+      <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="portfolio.asp">Portfolio</a>
+          <ul>
+            <li>Print Design</li>
+            <li>Illustrations</li>
+            <li>Web Development</li>
+          </ul>
+        </li>
+        <li><a href="case_study.asp">Case Study</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="resume.asp">Resume</a></li>
+      </ul>
+    </section>
 
-        <!-- Copy the whole <section> block to add more projects. -->
-        <section>
-          <h3>Project Name</h3>
-          <img src="project-thumbnail.png" alt="description of image">
-          <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-          <a href="#" target="_blank">View project / case study</a>
-        </section>
-        <!-- End of Project block. -->
+      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+      <section class="projects">
+        <div class="content-wrap">
+          <h2>Featured Projects</h2>
+          <p>View selected projects below. More information can be found at <a href="https://higdongraphicdesign.com">higdongraphicdesign.com</a>.</p>
+
+          <!-- Copy the whole <section> block to add more projects. -->
+          <section class="project-item">
+            <img src="images/folded-brochure.png" alt="folded brochure">
+            <h3>Hanging Wall Cabinet Instructions</h3>
+            <p>This cabinet is marketed as a selection of “The Ultimate Relationship Test” series. The finished cabinet is a classic design and the instruction sheet is laid out simply, but there are enough joinery parts in this kit to guarantee an argument or two among the builders. Other pieces in the series are “Bathroom Vanity” and “Flatscreen TV Mount.”</p>
+            <a href="https://higdongraphicdesign.com/3-eyed-frightsteomper" target="_blank">See More of This Character</a>
+          </section>
+          <!-- End of Project block. -->
+          <!-- Copy the whole <section> block to add more projects. -->
+          <section class="project-item">
+            <img src="images/HigdonSingleSticker.png" alt="comic character stickers">
+            <h3>Legendary Three-Eyed Frightstomper</h3>
+            <p>This fun fantasy mascot started as an imaginary character sticker sheet and is now the logo for a kid’s league hockey team. The Frightstompers merchandise includes the original sticker sheet, hoodie and a colorful keychain.”</p>
+            <a href="https://higdongraphicdesign.com/case-study" target="_blank">View case study</a>
+          </section>
+            <!-- End of Project block. -->
+            <!-- Copy the whole <section> block to add more projects. -->
+          <section class="project-item">
+            <img src="images/folded-brochure.png" alt="folded brochure">
+            <h3>Hanging Wall Cabinet Instructions</h3>
+            <p>This cabinet is marketed as a selection of “The Ultimate Relationship Test” series. The finished cabinet is a classic design and the instruction sheet is laid out simply, but there are enough joinery parts in this kit to guarantee an argument or two among the builders. Other pieces in the series are “Bathroom Vanity” and “Flatscreen TV Mount.”</p>
+            <a href="https://higdongraphicdesign.com/case-study" target="_blank">View case study</a>
+          </section>
+          <!-- End of Project block. -->
+        </div>
       </section>
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section>
-        <h2>Work Experience</h2>
-        <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
-
-        <!-- Copy this whole <section> block to add more jobs. -->
-        <section>
-          <h3>Job title</h3>
-          <p>Company Name</p>
-          <p>Date at job</p>
-          <p>Job summary goes here. Add as many paragraphs as you need.</p>
-          <p>Optional list:</p>
-          <ul>
-            <li>Delete this list if you don't need it.</li>
-            <li>Created...</li>
-            <li>Lead...</li>
-            <li>Responsible for...</li>
-          </ul>
-        </section>
-        <!-- End of Job block. -->
+      <section class="work-experience">
+        <div class="content-wrap">
+          <h2>Work Experience</h2>
+          <!-- Copy this whole <section> block to add more jobs. -->
+          <section>
+            <h3>Graphic Designer</h3>
+            <p>Printing and Packaging, Inc</p>
+            <p>Dec 2014 – present</p>
+            <p>Skills:</p>
+            <ul>
+              <li>Supports customer service manager with building and maintaining relationships with customers</li>
+              <li>Creates detailed packaging design layouts and dielines</li>
+              <li>Produces logos and business branding guides</li>
+              <li>Designs booklets, office forms, instructions sheets, product labels, slideshows, tradeshow backdrops and other items per customer requests</li>
+              <li>Writes copy for company commerce websites and produces illustrations to convey complex information for customer education</li>
+              <li>Trains other department employees in graphic applications</li>
+              <li>Steps impositions for offset and digital presses</li>
+            </ul>
+          </section>
+          <!-- End of Job block. -->
+        </div>
       </section>
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section>
-        <h2>Education</h2>
-
-        <!-- Copy this whole <section> block to add more schools. -->
-        <section>
-          <h3>School name - City</h3>
-          <p>Designation received or program name, year attended</p>
-          <p>Summary or accomplishments.</p>
-        </section>
-        <!-- End of School block. -->
+      <section class="education">
+        <div class="content-wrap">
+          <h2>Education</h2>
+          <!-- Copy this whole <section> block to add more schools. -->
+          <section>
+            <h3>Wake Technical Community College - Raleigh, N.C.</h3>
+            <p>AAS, Advertising and Graphic Design, 2022</p>
+          </section>
+          <!-- End of School block. -->
+        </div>
       </section>
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
-        <h2>Let's Keep in Touch!</h2>
-
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <ul>
-          <li><a href="mailto:email@example.com">email@example.com</a></li>
-          <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
-          <li><a href="#" target="_blank">Twitter</a></li>
-          <li><a href="#" target="_blank">LinkedIn</a></li>
-          <li><a href="#" target="_blank">Facebook</a></li>
-        </ul>
+        <div class="content-wrap">
+          <h2>Let's Keep in Touch!</h2>
+          <!-- Social media and contact links. Add or remove any networks. -->
+            <ul>
+            <li><a href="mailto:sebrina@higdongraphicdesign.com">sebrina@higdongraphicdesign.com</a></li>
+            <li><a href="https://higdongraphicdesign.com" target="_blank">higdongraphicdesign.com</a></li>
+            <li><a href="https://www.linkedin.com/in/sebrina-higdon/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.facebook.com/HigdonGraphicDesign" target="_blank">Facebook</a></li>
+          </ul>
+        </div>
       </footer>
     </main>
   </body>
