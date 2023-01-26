@@ -1,4 +1,4 @@
-/* myStyles by Sebrina Higdon, 24 Jan 2023, WEB210 */
+/* myStyles by Sebrina Higdon, 30 Sept 2022, WEB210 */
 /* Resume site for LinkedIn Learning project */
 
 /*global styles
@@ -103,6 +103,9 @@ header {
     background-color: #dae0f2;
 }
 .projects a {
+    color: #111344;
+}
+.projects .btn {
     color: #efe9e7;
     background: #111344;
     color: white;
@@ -111,7 +114,7 @@ header {
     border-radius: 4px;
     display: inline-block;
 }
-.projects a:hover {
+.projects .btn:hover {
     background: rgba(17, 19, 68, 80%);
 }
 .project-item {
@@ -137,9 +140,12 @@ header {
     margin: 0;
     padding: 0;
   }
-
+  
 /*education
 -----------------------------------*/
+.education {
+    background-color: #a2c6f1;
+}
 
 /*contact info
 -----------------------------------*/
@@ -150,4 +156,4 @@ footer {
 }
 footer a:link {
     text-decoration: none;
-  }
+}
